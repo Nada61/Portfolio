@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
+import { ScrollanimationDirective } from './scrollanimation.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import { HomeBannerComponent } from './home-banner/home-banner.component';
     AboutComponent,
     ContactComponent,
     NavbarComponent,
-    HomeBannerComponent
+    HomeBannerComponent,
+    ScrollanimationDirective
+
   ],
   imports: [
     BrowserModule,

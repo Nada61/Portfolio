@@ -101,7 +101,8 @@
               "src/css/circle.css",
               "src/css/style.css",
               "src/css/preloader.min.css",
-              "src/css/skins/yellow.css"
+              "src/css/skins/yellow.css",
+              "./node_modules/animate.css/animate.min.css"
             ],
             "scripts": [
               "src/js/jquery-3.5.0.min.js",

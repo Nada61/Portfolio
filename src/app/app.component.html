@@ -1,4 +1,7 @@
 <app-navbar></app-navbar>
-<app-home-banner></app-home-banner>
+<!-- <app-home-banner></app-home-banner> -->
+<div class=" animate__animated opacity-0" appScrollAnimation [className]="'fadeInRight'">
+  <router-outlet></router-outlet>
+</div>
 <!-- <app-about></app-about>
 <app-contact></app-contact> -->
